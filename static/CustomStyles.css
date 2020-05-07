@@ -1,0 +1,44 @@
+.pinkDiv{
+    margin-bottom:10px;
+    min-height:40px;
+    background-color:purple;
+    text-align:center;
+    font-size:large;
+    color:white;
+}
+.customDiv{
+    
+    min-height:40px;
+    background-color:black;
+    text-align:center;
+    font-size:large;
+    color:white;
+}
+.logoDiv{
+    margin-bottom:10px;
+    min-height:75px;
+    background-color:black;
+    
+    color:white;
+}
+.h1{
+    font-size:60px;
+    color:black;
+}
+.h2{
+    font-size:40px;
+    color:MediumVioletRed;
+}
+.h3{
+    font-size:30px;
+    color:MediumVioletRed;
+}
+.timelineDiv{
+    margin-bottom:10px;
+    max-height:75px;
+    background-color:white;
+    text-align:center;
+    font-size:large;
+    color:black;
+
+}

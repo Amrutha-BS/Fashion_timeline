@@ -1,0 +1,136 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link href="{% static 'CustomStyles.css' %}" rel="stylesheet"/>
+
+    <title>Trends</title>
+  </head>
+  <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-3">
+              <img src="{% static 'images\logo1.png' %}" class="logoDiv img-responsive"/>
+            </div>
+            <div class="col-md-3">
+              <div class="h1">TRENDS</div>
+            </div>
+          </div>
+       </div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="contribute.html">CONTRIBUTE</a>
+                   </li>
+                  <li class="nav-item active">
+                        <a class="nav-link" href="accounts/login">LOGIN</a>
+                  </li>
+                  <li class="nav-item active">
+                        <a class="nav-link" href="accounts/signup">SIGNUP</a>
+                  </li>
+                  
+                </ul>
+      </nav>
+      <br><br>
+
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+     </ul>
+
+  <!-- The slideshow -->
+     <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="{% static 'images/quote6.jpeg' %}" >
+         </div>
+         <div class="carousel-item">
+            <img src="{% static 'images/quote7.jpg' %}" >
+         </div>
+         <div class="carousel-item">
+            <img src="{% static 'images/quote8.jpg' %}" >
+         </div>
+     </div>
+
+  <!-- Left and right controls -->
+     <a class="carousel-control-prev" href="#demo" data-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+     </a>
+     <a class="carousel-control-next" href="#demo" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+     </a>
+
+  </div>
+
+
+    
+      <br>
+      <hr>
+      <div class="h2"><i>TIMELINE...</i></div>
+      <hr>
+      <br>
+      <div class="container">    
+          <div class="row">
+            <div class="col-lg-2 col-md-2">
+                <a class="nav-link" href="timeline1.html"><div class="pinkDiv">1800-1850</div><a>
+            </div>
+            <div class="col-lg-2 col-md-2">
+                <a class="nav-link" href="timeline2.html"><div class="pinkDiv">1850-1900</div><a>
+            </div>
+            <div class="col-lg-2 col-md-2">
+                <a class="nav-link" href="timeline3.html"><div class="pinkDiv">1900-1950</div><a>
+            </div>
+            <div class="col-lg-2 col-md-2">
+                <a class="nav-link" href="timeline4.html"><div class="pinkDiv">1950-2000</div><a>
+            </div>
+            <div class="col-lg-2 col-md-2">
+                <a class="nav-link" href="timeline5.html"><div class="pinkDiv">2000-2020</div><a>
+            </div>
+          </div>
+      </div>
+     <br><hr><br>
+     <div class="h3">Definition of Fashion</div>
+     <p>
+      According to the editorial policy of Fashion Theory: The Journal of Dress, Body & Culture, fashion is defined as 
+      "the cultural construction of the embodied identity." As such, it encompasses all forms of self-fashioning, including
+       street styles, as well as so-called high fashion created by designers and couturiers. Fashion also alludes to the way in 
+       which things are made; to fashion something is to make it in a particular form. Most commonly, fashion is defined as the 
+       prevailing style of dress or behavior at any given time, with the strong implication that fashion is characterized by change. 
+       As Shakespeare wrote, "The fashion wears out more apparel than the man." There are fashions in furniture, automobiles and other 
+       objects, as well as in clothing, although greater attention is paid to sartorial fashion, probably because clothing has such an 
+       intimate relationship with the physical body and, by extension, the personal identity of the individual.
+      </p>
+      <p>
+      <div class="h3"> Fashion Through the Ages</div>
+     
+      Fashion is most often thought of as a phenomenon of the Western world from the late Middle Ages onward; but fashion-oriented behavior 
+      existed in at least some other societies and historical periods, such as Tang Dynasty China (618-907) and Heian Period Japan (795-1185). 
+      For example, at the eleventh-century Japanese court, it was a term of praise to describe something as
+       imamekashi ("up-to-date" or "fashionable"). A regular pattern of stylistic change with respect to dress and interior decoration 
+       existed in Europe by the fourteenth century. The first fashion magazine is thought to have appeared in about 1586 in Frankfurt, Germany.
+        By the seventeenth century, Paris was the capital of European fashion, and the source of most new styles in women's dress. 
+        By the eighteenth century, however, fashions in men's clothing tended to originate in London.
+      </p>
+             
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
